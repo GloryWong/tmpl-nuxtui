@@ -8,6 +8,15 @@
   </a>
 </p>
 
+## Install
+
+```shell
+# Run this line to copy tmpl-nuxiui and install dependencies
+npx giget@latest gh:GloryWong/tmpl-nuxtui --install <Your project name>
+
+# Don't forget to check outdated dependencies
+```
+
 > **Replace all `tmpl-nuxtui` in this template with your app name**
 
 ## Author

@@ -16,6 +16,21 @@ const isModalOpen = ref(false)
         label="Open Nuxt UI Documentation"
       />
     </div>
+    <div class="flex justify-center">
+      <div class="p-4 flex flex-col gap-2">
+        <code class="bg-neutral-100 dark:bg-neutral-800 p-4 rounded-lg border dark:border-neutral-700 flex flex-col gap-2">
+          <span>
+            <span class="text-gray-400 dark:text-gray-500"># Run this line to copy tmpl-nuxiui and install dependencies</span>
+          </span>
+          <span>
+            <span class="text-purple-700 dark:text-green-400">npx</span><span class="text-sky-800 dark:text-sky-300"> giget@latest gh:GloryWong/tmpl-nuxtui --install &lt;Your project name&gt;</span>
+          </span>
+        </code>
+        <p class="text-neutral-500">
+          * Don't forget to check outdated dependencies
+        </p>
+      </div>
+    </div>
     <UCard>
       <template #header>
         Test components
