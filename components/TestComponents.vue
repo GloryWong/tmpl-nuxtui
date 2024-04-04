@@ -1,5 +1,13 @@
 <script setup lang="ts">
 const isModalOpen = ref(false)
+
+const cmdRef = useTemplateRef()
+const cmdString = ref('')
+onMounted(() => {
+  cmdString.value = cmdRef.value?.textContent ?? ''
+})
+
+const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: true })
 </script>
 
 <template>
@@ -17,16 +25,21 @@ const isModalOpen = ref(false)
       />
     </div>
     <div class="flex justify-center">
-      <div class="p-4 flex flex-col gap-2">
-        <code class="bg-neutral-100 dark:bg-neutral-800 p-4 rounded-lg border dark:border-neutral-700 flex flex-col gap-2">
+      <div class="flex flex-col gap-2">
+        <code
+          class="bg-neutral-100 dark:bg-neutral-800 p-4 rounded-lg border dark:border-neutral-700 flex flex-col gap-2 relative"
+        >
           <span>
             <span class="text-gray-400 dark:text-gray-500"># Run this line to copy tmpl-nuxiui and install dependencies</span>
           </span>
-          <span>
+          <span ref="cmdRef">
             <span class="text-purple-700 dark:text-green-400">npx</span><span class="text-sky-800 dark:text-sky-300"> giget@latest gh:GloryWong/tmpl-nuxtui --install &lt;Your project name&gt;</span>
           </span>
+          <span v-if="isSupported" class="absolute top-1 right-1">
+            <UButton variant="ghost" :icon="copied ? 'i-heroicons-check-solid' : 'i-heroicons-clipboard-document-list'" @click="copy()" />
+          </span>
         </code>
-        <p class="text-neutral-500">
+        <p class="text-neutral-400 dark:text-neutral-600">
           * Don't forget to check outdated dependencies
         </p>
       </div>
