@@ -18,6 +18,45 @@ export default defineNuxtConfig({
     keepalive: true,
     layoutTransition: { name: 'blur', mode: 'out-in' },
     pageTransition: { name: 'blur', mode: 'out-in' },
+    head: {
+      meta: [
+        {
+          name: 'description',
+          content: pkgJson.description,
+        },
+        {
+          name: 'theme-color',
+          content: '#181818',
+        },
+        {
+          name: 'apple-mobile-web-app-status-bar-style',
+          content: 'black',
+        },
+        {
+          name: 'keywords',
+          content: 'nuxt, nuxt ui, template, starter',
+        },
+      ],
+      htmlAttrs: {
+        lang: 'en-US',
+      },
+      noscript: [
+        { children: 'JavaScript is required' },
+      ],
+      link: [
+        {
+          rel: 'icon',
+          href: '/favicon.ico',
+          sizes: '48x48',
+        },
+        {
+          rel: 'apple-touch-icon',
+          href: '/apple-touch-icon-180x180.png',
+          type: 'image/png',
+          sizes: '180x180',
+        },
+      ],
+    },
   },
 
   vite: {
@@ -58,7 +97,24 @@ export default defineNuxtConfig({
       theme_color: '#181818',
       background_color: '#181818',
       start_url: '/',
-      icons: [],
+      icons: [{
+        src: 'pwa-64x64.png',
+        sizes: '64x64',
+        type: 'image/png',
+      }, {
+        src: 'pwa-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      }, {
+        src: 'pwa-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      }, {
+        src: 'maskable-icon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'maskable',
+      }],
     },
     workbox: {
       // globPatterns: ['**/*.{js,css,html,png,svg,ico}'],

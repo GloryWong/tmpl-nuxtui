@@ -1,9 +1,9 @@
 {
   "name": "tmpl-nuxtui",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
-  "description": "",
+  "description": "Ready-to-use Nuxt UI template",
   "author": {
     "name": "Glory Wong",
     "email": "glorywong1001@gmail.com",
@@ -35,7 +35,7 @@
     "@gloxy/mini-logger": "^0.0.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.11.6",
+    "@antfu/eslint-config": "^2.12.1",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@commitlint/cz-commitlint": "^19.2.0",
@@ -50,13 +50,13 @@
     "@vueuse/nuxt": "^10.9.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.57.0",
-    "eslint-plugin-perfectionist": "^2.7.0",
+    "eslint-plugin-perfectionist": "^2.8.0",
     "happy-dom": "^13.10.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.11.2",
     "nuxt-security": "1.2.2",
-    "type-fest": "^4.14.0",
+    "type-fest": "^4.15.0",
     "vitest": "^1.4.0",
     "vitest-environment-nuxt": "^1.0.0",
     "vitest-fetch-mock": "^0.2.2"

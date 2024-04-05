@@ -5,57 +5,6 @@ useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} - ${appConfig.appName}` : appConfig.appName
   },
-  meta: [
-    {
-      name: 'description',
-      content: appConfig.appDescription,
-    },
-    {
-      name: 'theme-color',
-      content: '#181818',
-    },
-    {
-      name: 'apple-mobile-web-app-status-bar-style',
-      content: 'black',
-    },
-    {
-      name: 'keywords',
-      content: '',
-    },
-  ],
-  htmlAttrs: {
-    lang: 'en-US',
-  },
-  link: [
-    // {
-    //   rel: 'icon',
-    //   href: '/favicon-32x32.png',
-    //   type: 'image/png',
-    //   sizes: '32x32',
-    // },
-    // {
-    //   rel: 'icon',
-    //   href: '/favicon-16x16.png',
-    //   type: 'image/png',
-    //   sizes: '16x16',
-    // },
-    // {
-    //   rel: 'icon',
-    //   href: '/favicon.ico',
-    //   sizes: 'any',
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/apple-touch-icon.png',
-    //   type: 'image/png',
-    //   sizes: '180x180',
-    // },
-    // {
-    //   rel: 'mask-icon',
-    //   href: '/logo.svg',
-    //   color: '#181818',
-    // },
-  ],
 })
 
 const HOST = appConfig.appHost
@@ -69,7 +18,7 @@ useSeoMeta({
   ogImageAlt: 'logo',
   ogType: 'website',
   ogUrl: HOST,
-  ogLocale: 'zh-CN',
+  ogLocale: 'en-US',
   ogLocaleAlternate: ['en-US'],
   twitterTitle: appConfig.appName,
   twitterDescription: appConfig.appDescription,
