@@ -43,13 +43,13 @@ export default defineNuxtPlugin(() => {
 
   whenever(
     () =>
-      !$pwa?.needRefresh && !hideInstallToast.value && $pwa?.showInstallPrompt,
+      !$pwa?.isPWAInstalled && !hideInstallToast.value && $pwa?.showInstallPrompt,
     () => {
       toast.add({
         id: 'installApp',
         title: `Install ${appConfig.appName}`,
         description:
-          `${appConfig.appName}can also be utilized as a Progressive Web Application (PWA), allowing you to install it on your device for more convenient access, and it's even available for use offline.`,
+          `${appConfig.appName} can also be utilized as a Progressive Web Application (PWA), allowing you to install it on your device for more convenient access, and it's even available for use offline.`,
         icon: 'i-heroicons-arrow-down-tray-20-solid',
         color: 'primary',
         timeout: 0,

@@ -35,5 +35,6 @@ useSeoMeta({
     <UContainer>
       <TestComponents />
     </UContainer>
+    <UNotifications />
   </div>
 </template>

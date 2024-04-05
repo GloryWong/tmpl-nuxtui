@@ -47,13 +47,18 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           href: '/favicon.ico',
-          sizes: '48x48',
+          sizes: 'any',
         },
         {
           rel: 'apple-touch-icon',
           href: '/apple-touch-icon-180x180.png',
           type: 'image/png',
           sizes: '180x180',
+        },
+        {
+          rel: 'mask-icon',
+          href: '/logo.svg',
+          color: '#181818',
         },
       ],
     },
@@ -124,7 +129,7 @@ export default defineNuxtConfig({
       periodicSyncForUpdates: 1800,
     },
     devOptions: {
-      // enabled: true,
+      enabled: true,
       suppressWarnings: true,
     },
   },
