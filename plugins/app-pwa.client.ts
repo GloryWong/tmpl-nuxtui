@@ -10,7 +10,7 @@ export default defineNuxtPlugin(() => {
     hideInstallToast.value = true
 
   whenever(
-    () => $pwa?.needRefresh,
+    () => $pwa?.isPWAInstalled && $pwa?.needRefresh,
     () => {
       toast.add({
         id: 'updateApp',
