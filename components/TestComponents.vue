@@ -60,6 +60,7 @@ const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: 
         <div>
           <ButtonColorMode />
         </div>
+        <ButtonPwa />
       </div>
     </UCard>
     <UCard>

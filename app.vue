@@ -29,7 +29,11 @@ useSeoMeta({
 </script>
 
 <template>
-  <UContainer>
-    <TestComponents />
-  </UContainer>
+  <div>
+    <NuxtPwaManifest />
+    <NuxtLoadingIndicator />
+    <UContainer>
+      <TestComponents />
+    </UContainer>
+  </div>
 </template>
