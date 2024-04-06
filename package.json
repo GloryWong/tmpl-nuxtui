@@ -1,7 +1,7 @@
 {
   "name": "tmpl-nuxtui",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "description": "Ready-to-use Nuxt UI template",
   "author": {

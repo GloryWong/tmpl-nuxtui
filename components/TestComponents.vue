@@ -36,7 +36,7 @@ const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: 
             <span class="text-gray-400 dark:text-gray-500"># Run this line to copy tmpl-nuxiui and install dependencies</span>
           </span>
           <span ref="cmdRef">
-            <span class="text-purple-700 dark:text-green-400">npx</span><span class="text-sky-800 dark:text-sky-300"> giget@latest gh:GloryWong/tmpl-nuxtui --install &lt;Your project name&gt;</span>
+            <span class="text-purple-700 dark:text-green-400">npx</span><span class="text-sky-800 dark:text-sky-300"> giget@latest gh:GloryWong/tmpl-nuxtui#master --install &lt;Your project name&gt;</span>
           </span>
           <span v-if="isSupported" class="absolute top-1 right-1">
             <UButton variant="ghost" :icon="copied ? 'i-heroicons-check-solid' : 'i-heroicons-clipboard-document-list'" @click="copy()" />
