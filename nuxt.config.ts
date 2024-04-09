@@ -82,7 +82,7 @@ export default defineNuxtConfig({
   ],
 
   ui: {
-    icons: ['line-md'],
+    icons: ['mdi', 'line-md'],
   },
 
   security: {
