@@ -34,7 +34,7 @@ defineShortcuts({
   >
     <UCard
       :ui="{
-        base: canOverflowScreen ? '' : 'flex flex-col',
+        base: canOverflowScreen ? '' : 'flex flex-col min-h-0 grow',
         body: {
           base: canOverflowScreen ? '' : 'flex-grow min-h-0 overflow-auto',
         },
@@ -53,7 +53,7 @@ defineShortcuts({
       <slot></slot>
       <template #footer>
         <div class="flex gap-2 justify-end items-center">
-          <slot name="customized-footer-buttons"></slot>
+          <slot name="extend-buttons"></slot>
           <template v-if="buttonOk || buttonClose">
             <UButton
               v-if="buttonOk" :label="buttonOk.label"

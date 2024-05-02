@@ -129,7 +129,6 @@ export default defineNuxtConfig({
       periodicSyncForUpdates: 1800,
     },
     devOptions: {
-      enabled: true,
       suppressWarnings: true,
     },
   },
