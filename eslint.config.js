@@ -16,7 +16,4 @@ export default await antfu({
       },
     }],
   },
-}, {
-  // https://eslint.org/docs/latest/use/configure/configuration-files-new#globally-ignoring-files-with-ignores
-  ignores: ['assets/presets/**'],
 })

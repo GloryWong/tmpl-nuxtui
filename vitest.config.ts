@@ -4,9 +4,6 @@ export default defineVitestConfig({
   test: {
     globals: true,
     environment: 'happy-dom',
-    deps: {
-      inline: ['primevue'],
-    },
     setupFiles: ['./tests/setup.ts'],
   },
 })
