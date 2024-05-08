@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/GloryWong/tmpl-nuxtui/compare/v1.0.0...v1.1.0) (2024-05-08)
+
+
+### Features
+
+* **deps:** upgrade deps ([bda355c](https://github.com/GloryWong/tmpl-nuxtui/commit/bda355c82225d59a7f8c8f694f185efdab450f4d))
+* **TestComponents:** change the badge to button linking to the latest github release ([b412ac9](https://github.com/GloryWong/tmpl-nuxtui/commit/b412ac9e524a7fd86e1b97d6427ed872503f1850))
+
 ## 1.0.0 (2024-05-08)
 
 
