@@ -19,8 +19,14 @@ const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: 
       dark:from-primary-600 dark:via-primary-300 dark:to-primary-600 flex justify-center items-center gap-2"
       >
         <BaseImage src="/logo.png" alt="logo" class="w-10 h-10 sm:w-12 sm:h-12" />
-        Welcome to tmpl-nuxtui
-        <UBadge variant="soft" :label="appConfig.appVersion" />
+        <div class="flex flex-wrap justify-center items-center gap-1.5">
+          <p>Welcome to</p>
+          <p>tmpl-nuxtui</p>
+        </div>
+        <UButton
+          variant="soft" :label="appConfig.appVersion"
+          :to="`https://github.com/GloryWong/tmpl-nuxtui/releases/tag/v${appConfig.appVersion}`" target="_blank"
+        />
       </h1>
       <UButton
         icon="i-heroicons-book-open" to="https://ui.nuxt.com" target="_blank"
@@ -33,7 +39,7 @@ const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: 
           class="bg-neutral-100 dark:bg-neutral-800 p-4 rounded-lg border dark:border-neutral-700 flex flex-col gap-2 relative"
         >
           <span>
-            <span class="text-gray-400 dark:text-gray-500"># Run this line to copy tmpl-nuxiui and install dependencies</span>
+            <span class="text-gray-400 dark:text-gray-500"># Run this script to copy tmpl-nuxiui and install dependencies</span>
           </span>
           <span ref="cmdRef">
             <span class="text-purple-700 dark:text-green-400">npx</span><span class="text-sky-800 dark:text-sky-300"> giget@latest gh:GloryWong/tmpl-nuxtui#master --install &lt;Your project name&gt;</span>
