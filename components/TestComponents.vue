@@ -49,7 +49,7 @@ const { copy, copied, isSupported } = useClipboard({ source: cmdString, legacy: 
           </span>
         </code>
         <p class="text-neutral-400 dark:text-neutral-600">
-          * Don't forget to check outdated dependencies
+          * Don't forget to check outdated dependencies using `pnpm outdated`
         </p>
       </div>
     </div>

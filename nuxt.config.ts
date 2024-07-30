@@ -81,10 +81,6 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
   ],
 
-  ui: {
-    icons: ['mdi', 'line-md'],
-  },
-
   security: {
     headers: {
       crossOriginEmbedderPolicy:

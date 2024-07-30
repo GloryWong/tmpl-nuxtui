@@ -23,53 +23,50 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare": "husky",
+    "prepare": "pnpm simple-git-hooks",
     "generate-pwa-assets": "pwa-assets-generator",
     "lint": "eslint .",
     "lint:fix": "pnpm lint --fix",
-    "commit": "git-cz",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@gloxy/mini-logger": "^0.0.4",
-    "ufo": "^1.5.3"
+    "@gloxy/logger": "^2.2.1",
+    "ufo": "^1.5.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.17.0",
+    "@antfu/eslint-config": "^2.24.0",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@commitlint/cz-commitlint": "^19.2.0",
-    "@iconify-json/line-md": "^1.1.37",
-    "@iconify-json/mdi": "^1.1.66",
+    "@iconify-json/line-md": "^1.1.38",
+    "@iconify-json/mdi": "^1.1.67",
     "@morev/vue-transitions": "^3.0.2",
-    "@nuxt/devtools": "latest",
-    "@nuxt/test-utils": "^3.12.1",
-    "@nuxt/ui": "^2.16.0",
+    "@nuxt/devtools": "^1.3.9",
+    "@nuxt/test-utils": "^3.14.0",
+    "@nuxt/ui": "^2.18.2",
     "@vite-pwa/assets-generator": "^0.2.4",
-    "@vite-pwa/nuxt": "^0.7.0",
-    "@vitest/coverage-v8": "^1.6.0",
-    "@vueuse/nuxt": "^10.9.0",
-    "commitizen": "^4.3.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-perfectionist": "^2.10.0",
-    "happy-dom": "^13.10.1",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "nuxt": "^3.11.2",
+    "@vite-pwa/nuxt": "^0.9.1",
+    "@vitest/coverage-v8": "^2.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "@vueuse/nuxt": "^10.11.0",
+    "eslint": "^9.8.0",
+    "happy-dom": "^14.12.3",
+    "lint-staged": "^15.2.7",
+    "nuxt": "^3.12.4",
     "nuxt-security": "1.4.3",
-    "type-fest": "^4.18.2",
-    "vitest": "^1.6.0",
+    "playwright-core": "^1.45.3",
+    "simple-git-hooks": "^2.11.1",
+    "type-fest": "^4.23.0",
+    "vitest": "^2.0.4",
     "vitest-environment-nuxt": "^1.0.0",
-    "vitest-fetch-mock": "^0.2.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "@commitlint/cz-commitlint"
-    }
+    "vitest-fetch-mock": "^0.3.0"
   },
   "overrides": {
     "vue": "latest"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged",
+    "commit-msg": "pnpm commitlint --edit ${1}"
   },
   "lint-staged": {
     "*": "pnpm lint:fix"
