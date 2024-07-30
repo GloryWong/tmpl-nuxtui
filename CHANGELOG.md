@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/GloryWong/tmpl-nuxtui/compare/v1.1.0...v1.1.1) (2024-07-30)
+
+
+### Bug Fixes
+
+* upgrade deps and logger and some tools ([ac77eb2](https://github.com/GloryWong/tmpl-nuxtui/commit/ac77eb2e856d7529bc1587ca0ce39a15c0b69550))
+
 ## [1.1.0](https://github.com/GloryWong/tmpl-nuxtui/compare/v1.0.0...v1.1.0) (2024-05-08)
 
 
