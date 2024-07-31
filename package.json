@@ -31,7 +31,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@gloxy/logger": "^2.2.1",
+    "@gloxy/logger": "^2.2.2",
     "ufo": "^1.5.4"
   },
   "devDependencies": {
@@ -43,10 +43,10 @@
     "@morev/vue-transitions": "^3.0.2",
     "@nuxt/devtools": "^1.3.9",
     "@nuxt/test-utils": "^3.14.0",
-    "@nuxt/ui": "^2.18.2",
+    "@nuxt/ui": "^2.18.3",
     "@vite-pwa/assets-generator": "^0.2.4",
     "@vite-pwa/nuxt": "^0.9.1",
-    "@vitest/coverage-v8": "^2.0.4",
+    "@vitest/coverage-v8": "^2.0.5",
     "@vue/test-utils": "^2.4.6",
     "@vueuse/nuxt": "^10.11.0",
     "eslint": "^9.8.0",
@@ -57,7 +57,7 @@
     "playwright-core": "^1.45.3",
     "simple-git-hooks": "^2.11.1",
     "type-fest": "^4.23.0",
-    "vitest": "^2.0.4",
+    "vitest": "^2.0.5",
     "vitest-environment-nuxt": "^1.0.0",
     "vitest-fetch-mock": "^0.3.0"
   },
