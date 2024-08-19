@@ -16,7 +16,7 @@ importers:
         version: 1.5.4
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^2.25.2
+        specifier: ^2.26.0
         version: 2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.4.34)(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
       '@commitlint/cli':
         specifier: ^19.4.0
@@ -85,8 +85,8 @@ importers:
         specifier: ^2.0.5
         version: 2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
       vitest-environment-nuxt:
-        specifier: ^1.0.0
-        version: 1.0.0(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4))
+        specifier: ^1.0.1
+        version: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4))
       vitest-fetch-mock:
         specifier: ^0.3.0
         version: 0.3.0(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
@@ -6105,8 +6105,8 @@ packages:
       terser:
         optional: true
 
-  vitest-environment-nuxt@1.0.0:
-    resolution: {integrity: sha512-AWMO9h4HdbaFdPWZw34gALFI8gbBiOpvfbyeZwHIPfh4kWg/TwElYHvYMQ61WPUlCGaS5LebfHkaI0WPyb//Iw==}
+  vitest-environment-nuxt@1.0.1:
+    resolution: {integrity: sha512-eBCwtIQriXW5/M49FjqNKfnlJYlG2LWMSNFsRVKomc8CaMqmhQPBS5LZ9DlgYL9T8xIVsiA6RZn2lk7vxov3Ow==}
 
   vitest-fetch-mock@0.3.0:
     resolution: {integrity: sha512-g6upWcL8/32fXL43/5f4VHcocuwQIi9Fj5othcK9gPO8XqSEGtnIZdenr2IaipDr61ReRFt+vaOEgo8jiUUX5w==}
@@ -8025,7 +8025,7 @@ snapshots:
       unenv: 1.10.0
       unplugin: 1.12.2
       vite: 5.3.5(@types/node@22.0.0)(terser@5.31.3)
-      vitest-environment-nuxt: 1.0.0(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4))
+      vitest-environment-nuxt: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4))
       vue: 3.4.34(typescript@5.5.4)
       vue-router: 4.4.0(vue@3.4.34(typescript@5.5.4))
     optionalDependencies:
@@ -10171,7 +10171,7 @@ snapshots:
       '@eslint-community/regexpp': 4.11.0
       comment-parser: 1.4.1
       eslint: 9.9.0(jiti@1.21.6)
-      jsdoc-type-pratt-parser: 4.0.0
+      jsdoc-type-pratt-parser: 4.1.0
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
@@ -13353,7 +13353,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.31.3
 
-  vitest-environment-nuxt@1.0.0(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4)):
+  vitest-environment-nuxt@1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4)):
     dependencies:
       '@nuxt/test-utils': 3.14.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.4)(nitropack@2.9.7(magicast@0.3.4))(playwright-core@1.46.0)(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))(vitest@2.0.5(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.0(vue@3.4.34(typescript@5.5.4)))(vue@3.4.34(typescript@5.5.4))
     transitivePeerDependencies:
