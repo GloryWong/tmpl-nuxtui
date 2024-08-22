@@ -48,7 +48,7 @@
     "@vite-pwa/nuxt": "^0.10.0",
     "@vitest/coverage-v8": "^2.0.5",
     "@vue/test-utils": "^2.4.6",
-    "@vueuse/nuxt": "^10.11.1",
+    "@vueuse/nuxt": "^11.0.1",
     "eslint": "^9.9.0",
     "happy-dom": "^14.12.3",
     "lint-staged": "^15.2.9",
