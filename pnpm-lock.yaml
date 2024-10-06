@@ -17,7 +17,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.27.3
-        version: 2.27.3(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.8)(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
+        version: 2.27.3(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.8)(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))
       '@commitlint/cli':
         specifier: ^19.5.0
         version: 19.5.0(@types/node@22.0.0)(typescript@5.5.4)
@@ -38,7 +38,7 @@ importers:
         version: 1.5.2(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
       '@nuxt/test-utils':
         specifier: ^3.14.2
-        version: 3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
+        version: 3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
       '@nuxt/ui':
         specifier: ^2.18.6
         version: 2.18.6(magicast@0.3.5)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
@@ -50,7 +50,7 @@ importers:
         version: 0.10.5(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(webpack-sources@3.2.3)(workbox-build@7.1.1)(workbox-window@7.1.0)
       '@vitest/coverage-v8':
         specifier: ^2.1.2
-        version: 2.1.2(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
+        version: 2.1.2(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))
       '@vue/test-utils':
         specifier: ^2.4.6
         version: 2.4.6
@@ -61,8 +61,8 @@ importers:
         specifier: ^9.11.1
         version: 9.11.1(jiti@1.21.6)
       happy-dom:
-        specifier: ^14.12.3
-        version: 14.12.3
+        specifier: ^15.7.4
+        version: 15.7.4
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.10
@@ -83,13 +83,13 @@ importers:
         version: 4.26.1
       vitest:
         specifier: ^2.1.2
-        version: 2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
+        version: 2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)
       vitest-environment-nuxt:
         specifier: ^1.0.1
-        version: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
+        version: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
       vitest-fetch-mock:
         specifier: ^0.3.0
-        version: 0.3.0(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
+        version: 0.3.0(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))
 
 packages:
 
@@ -3770,9 +3770,9 @@ packages:
   h3@1.12.0:
     resolution: {integrity: sha512-Zi/CcNeWBXDrFNlV0hUBJQR9F7a96RjMeAZweW/ZWkR9fuXrMcvKnSA63f/zZ9l0GgQOZDVHGvXivNN9PWOwhA==}
 
-  happy-dom@14.12.3:
-    resolution: {integrity: sha512-vsYlEs3E9gLwA1Hp+w3qzu+RUDFf4VTT8cyKqVICoZ2k7WM++Qyd2LwzyTi5bqMJFiIC/vNpTDYuxdreENRK/g==}
-    engines: {node: '>=16.0.0'}
+  happy-dom@15.7.4:
+    resolution: {integrity: sha512-r1vadDYGMtsHAAsqhDuk4IpPvr6N8MGKy5ntBo7tSdim+pWDxus2PNqOcOt8LuDZ4t3KJHE+gCuzupcx/GKnyQ==}
+    engines: {node: '>=18.0.0'}
 
   has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -6492,7 +6492,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.27.3(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.8)(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))':
+  '@antfu/eslint-config@2.27.3(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.5.8)(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@clack/prompts': 0.7.0
@@ -6500,7 +6500,7 @@ snapshots:
       '@stylistic/eslint-plugin': 2.6.4(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)
       '@typescript-eslint/eslint-plugin': 8.4.0(@typescript-eslint/parser@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)
       '@typescript-eslint/parser': 8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)
-      '@vitest/eslint-plugin': 1.1.0(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))
+      '@vitest/eslint-plugin': 1.1.0(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))
       eslint: 9.11.1(jiti@1.21.6)
       eslint-config-flat-gitignore: 0.1.8
       eslint-flat-config-utils: 0.3.1
@@ -8207,7 +8207,7 @@ snapshots:
       - supports-color
       - webpack-sources
 
-  '@nuxt/test-utils@3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)':
+  '@nuxt/test-utils@3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)':
     dependencies:
       '@nuxt/kit': 3.13.1(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3)
       '@nuxt/schema': 3.13.1(rollup@4.21.2)(webpack-sources@3.2.3)
@@ -8234,14 +8234,14 @@ snapshots:
       unenv: 1.10.0
       unplugin: 1.14.1(webpack-sources@3.2.3)
       vite: 5.4.7(@types/node@22.0.0)(terser@5.31.3)
-      vitest-environment-nuxt: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
+      vitest-environment-nuxt: 1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
       vue: 3.5.8(typescript@5.5.4)
       vue-router: 4.4.5(vue@3.5.8(typescript@5.5.4))
     optionalDependencies:
       '@vue/test-utils': 2.4.6
-      happy-dom: 14.12.3
+      happy-dom: 15.7.4
       playwright-core: 1.47.2
-      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
+      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -8970,7 +8970,7 @@ snapshots:
       vite: 5.4.7(@types/node@22.0.0)(terser@5.31.3)
       vue: 3.5.8(typescript@5.5.4)
 
-  '@vitest/coverage-v8@2.1.2(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))':
+  '@vitest/coverage-v8@2.1.2(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -8984,17 +8984,17 @@ snapshots:
       std-env: 3.7.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
+      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/eslint-plugin@1.1.0(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))':
+  '@vitest/eslint-plugin@1.1.0(@typescript-eslint/utils@8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4))(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))':
     dependencies:
       eslint: 9.11.1(jiti@1.21.6)
     optionalDependencies:
       '@typescript-eslint/utils': 8.4.0(eslint@9.11.1(jiti@1.21.6))(typescript@5.5.4)
       typescript: 5.5.4
-      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
+      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)
 
   '@vitest/expect@2.1.2':
     dependencies:
@@ -10956,7 +10956,7 @@ snapshots:
     transitivePeerDependencies:
       - uWebSockets.js
 
-  happy-dom@14.12.3:
+  happy-dom@15.7.4:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -13688,9 +13688,9 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.31.3
 
-  vitest-environment-nuxt@1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3):
+  vitest-environment-nuxt@1.0.1(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3):
     dependencies:
-      '@nuxt/test-utils': 3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@14.12.3)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
+      '@nuxt/test-utils': 3.14.2(@vue/test-utils@2.4.6)(h3@1.12.0)(happy-dom@15.7.4)(magicast@0.3.5)(nitropack@2.9.7(magicast@0.3.5)(webpack-sources@3.2.3))(playwright-core@1.47.2)(rollup@4.21.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3))(vue-router@4.4.5(vue@3.5.8(typescript@5.5.4)))(vue@3.5.8(typescript@5.5.4))(webpack-sources@3.2.3)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -13712,14 +13712,14 @@ snapshots:
       - vue-router
       - webpack-sources
 
-  vitest-fetch-mock@0.3.0(vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)):
+  vitest-fetch-mock@0.3.0(vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)):
     dependencies:
       cross-fetch: 4.0.0
-      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3)
+      vitest: 2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3)
     transitivePeerDependencies:
       - encoding
 
-  vitest@2.1.2(@types/node@22.0.0)(happy-dom@14.12.3)(terser@5.31.3):
+  vitest@2.1.2(@types/node@22.0.0)(happy-dom@15.7.4)(terser@5.31.3):
     dependencies:
       '@vitest/expect': 2.1.2
       '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(vite@5.4.7(@types/node@22.0.0)(terser@5.31.3))
@@ -13742,7 +13742,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.0.0
-      happy-dom: 14.12.3
+      happy-dom: 15.7.4
     transitivePeerDependencies:
       - less
       - lightningcss
