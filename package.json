@@ -42,14 +42,14 @@
     "@iconify-json/mdi": "^1.2.3",
     "@morev/vue-transitions": "^3.0.5",
     "@nuxt/devtools": "^1.7.0",
-    "@nuxt/test-utils": "^3.16.0",
+    "@nuxt/test-utils": "^3.17.0",
     "@nuxt/ui": "^2.21.0",
     "@vite-pwa/assets-generator": "^0.2.6",
     "@vite-pwa/nuxt": "^0.10.6",
     "@vitest/coverage-v8": "^2.1.9",
     "@vue/test-utils": "^2.4.6",
     "@vueuse/nuxt": "^11.3.0",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
     "happy-dom": "^14.12.3",
     "lint-staged": "^15.4.3",
     "nuxt": "^3.15.4",
@@ -59,7 +59,7 @@
     "type-fest": "^4.35.0",
     "vitest": "^2.1.9",
     "vitest-environment-nuxt": "^1.0.1",
-    "vitest-fetch-mock": "^0.4.3"
+    "vitest-fetch-mock": "^0.4.4"
   },
   "overrides": {
     "vue": "latest"
