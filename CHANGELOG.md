@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/GloryWong/tmpl-nuxtui/compare/v1.1.1...v1.1.2) (2025-04-06)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#58](https://github.com/GloryWong/tmpl-nuxtui/issues/58)) ([5cbc3b3](https://github.com/GloryWong/tmpl-nuxtui/commit/5cbc3b373ad62bab242b6e7182810b8a7c85a621))
+
 ## [1.1.1](https://github.com/GloryWong/tmpl-nuxtui/compare/v1.1.0...v1.1.1) (2024-07-30)
 
 
