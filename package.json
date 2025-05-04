@@ -52,11 +52,11 @@
     "eslint": "^9.25.1",
     "happy-dom": "^14.12.3",
     "lint-staged": "^15.5.1",
-    "nuxt": "^3.16.2",
+    "nuxt": "^3.17.1",
     "nuxt-security": "1.4.3",
     "playwright-core": "^1.52.0",
     "simple-git-hooks": "^2.13.0",
-    "type-fest": "^4.40.0",
+    "type-fest": "^4.40.1",
     "vitest": "^2.1.9",
     "vitest-environment-nuxt": "^1.0.1",
     "vitest-fetch-mock": "^0.4.5"
