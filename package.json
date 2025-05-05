@@ -43,7 +43,7 @@
     "@morev/vue-transitions": "^3.0.5",
     "@nuxt/devtools": "^1.7.0",
     "@nuxt/test-utils": "^3.17.2",
-    "@nuxt/ui": "^2.22.0",
+    "@nuxt/ui": "^3.1.1",
     "@vite-pwa/assets-generator": "^0.2.6",
     "@vite-pwa/nuxt": "^0.10.8",
     "@vitest/coverage-v8": "^2.1.9",
