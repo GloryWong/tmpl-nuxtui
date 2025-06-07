@@ -50,7 +50,7 @@
     "@vue/test-utils": "^2.4.6",
     "@vueuse/nuxt": "^11.3.0",
     "eslint": "^9.27.0",
-    "happy-dom": "^14.12.3",
+    "happy-dom": "^17.6.3",
     "lint-staged": "^15.5.2",
     "nuxt": "^3.17.4",
     "nuxt-security": "1.4.3",
