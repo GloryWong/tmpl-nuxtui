@@ -31,7 +31,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@gloxy/logger": "^2.2.5",
+    "@gloxy/logger": "^2.2.6",
     "ufo": "^1.6.1"
   },
   "devDependencies": {
@@ -49,12 +49,12 @@
     "@vitest/coverage-v8": "^2.1.9",
     "@vue/test-utils": "^2.4.6",
     "@vueuse/nuxt": "^11.3.0",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "happy-dom": "^14.12.3",
     "lint-staged": "^15.5.2",
     "nuxt": "^3.19.2",
     "nuxt-security": "1.4.3",
-    "playwright-core": "^1.55.0",
+    "playwright-core": "^1.55.1",
     "simple-git-hooks": "^2.13.1",
     "type-fest": "^4.41.0",
     "vitest": "^2.1.9",
