@@ -51,7 +51,7 @@
     "@vueuse/nuxt": "^11.3.0",
     "eslint": "^9.37.0",
     "happy-dom": "^14.12.3",
-    "lint-staged": "^15.5.2",
+    "lint-staged": "^16.2.6",
     "nuxt": "^3.19.3",
     "nuxt-security": "1.4.3",
     "playwright-core": "^1.56.0",
