@@ -58,7 +58,7 @@ importers:
         specifier: ^11.3.0
         version: 11.3.0(magicast@0.3.5)(nuxt@3.19.3(@netlify/blobs@9.1.2)(@parcel/watcher@2.4.1)(@types/node@22.0.0)(@vue/compiler-sfc@3.5.22)(db0@0.3.2)(eslint@9.38.0(jiti@2.6.1))(ioredis@5.7.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.50.2)(terser@5.31.3)(typescript@5.8.3)(vite@5.4.11(@types/node@22.0.0)(terser@5.31.3))(yaml@2.8.0))(rollup@4.50.2)(vue@3.5.22(typescript@5.8.3))
       eslint:
-        specifier: ^9.37.0
+        specifier: ^9.38.0
         version: 9.38.0(jiti@2.6.1)
       happy-dom:
         specifier: ^14.12.3
@@ -73,7 +73,7 @@ importers:
         specifier: 1.4.3
         version: 1.4.3(magicast@0.3.5)(rollup@4.50.2)
       playwright-core:
-        specifier: ^1.56.0
+        specifier: ^1.56.1
         version: 1.56.1
       simple-git-hooks:
         specifier: ^2.13.1
