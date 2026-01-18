@@ -32,17 +32,17 @@
   },
   "dependencies": {
     "@gloxy/logger": "^2.2.6",
-    "ufo": "^1.6.1"
+    "ufo": "^1.6.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@iconify-json/line-md": "^1.2.11",
+    "@iconify-json/line-md": "^1.2.13",
     "@iconify-json/mdi": "^1.2.3",
     "@morev/vue-transitions": "^3.0.5",
     "@nuxt/devtools": "^1.7.0",
-    "@nuxt/test-utils": "^3.21.0",
+    "@nuxt/test-utils": "^3.23.0",
     "@nuxt/ui": "^2.22.3",
     "@vite-pwa/assets-generator": "^0.2.6",
     "@vite-pwa/nuxt": "^0.10.8",
